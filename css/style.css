@@ -1,0 +1,88 @@
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 96%;
+    margin: auto;
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-between;
+}
+.block__left{
+    background-color: rgb(0, 51, 255);
+    width: 45%;
+    color: white;
+}
+.navbar__image{
+    width: 30%;
+    height: 30%;
+    margin: 20px 200px;
+}
+.block__right{
+    width: 50%;
+}
+.navbar__facebook{
+    width: 5%;
+    height: 5%;
+}
+.navbar__instagram{
+    width: 5%;
+    height: 5%;
+}
+.navbar__telegram{
+    width: 5%;
+    height: 5%;
+}
+.navbar__whatsapp{
+    width: 5%;
+    height: 5%;
+}
+.navbar__tiktok{
+    width: 5%;
+    height: 5%;
+}
+.navbar__icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    width: 80%;
+}
+
+.block__left_title{
+    border: 1px solid rgb(24, 24, 184) ;
+    background-color: rgb(24, 24, 184);
+    height: 30px;
+    padding: 5px 25px;
+    margin: 0;
+}
+.header__phone{
+    width: 3%;
+    height: 3%;
+    margin-right: 15px;
+}
+.header__email{
+    width: 3%;
+    height: 3%;
+    margin-right: 15px;
+}
+.header__icon{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.header__info{
+    margin-top: 50px;
+}
+.block__right_list{
+    font-size: 18px;
+}
+.block__right_title{
+    border-bottom: 1px solid  rgb(0, 51, 255);
+}
+.block__left_list{
+    font-size: 18px;
+    margin-left: 30px;
+}
